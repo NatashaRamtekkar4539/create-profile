@@ -1,0 +1,24 @@
+
+{
+  "data": [
+      {
+          "id": 1,
+          "name": "tumch naav",
+          "email":"tumchanaav@gmasj.com",
+          "password": "acb9f03663d721eaa2d874663699bb9e456670831a76eed4bda81c6d49db7e0b"
+      },
+      {
+          "id": 2,
+          "name": "tumch naav 2",
+          "email":"tumchanaav2@gmasj.com",
+          "password": "75af2d55eb530b4c2b6a631a12167f8141ed2092ffa3905775c8b7ddd5efb6b9"
+      }
+  ]
+  ,
+  
+  "popular_books":{"pobook1":"path to pdf file","pobooks2":"path to pdf file"},
+  "top_books":{"tpbook1":"path to pdf file","tpbook2":"path to pdf file"},
+  "marathi_books":{"bookname1":"path to pdf file","bookname2":"path to pdf file"},
+  "hindi_books": {"bookname":"path to pdf file","booknam":"path to pdf file"},
+  "books":{"bookname":"path to pdf file","bok":"path to pdf file"}
+}

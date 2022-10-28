@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+   <script src="https://kit.fontawesome.com/7f28f0c1e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="content">
+        <nav>
+            <ul>
+                <li><a href="#"></li> 
+            </ul>
+            <div class="logo" onclick="toggleMenu()"><i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-user"></i>      
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <hr>
+                    <a href="#" class="sub-menu-link">
+                        <img src="../Images/createprofile.png">
+                        <p>Create Profile</p>
+                        <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="../Images/logout.png">
+                        <p>Log Out</p>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <script>
+        let subMenu=document.getElementById("subMenu");
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+</html>
